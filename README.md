@@ -40,13 +40,24 @@ A real-time Sign Language Recognition System using deep learning and sensor fusi
 
 ### 2. Software Installation
 
-```bash
+
 # Clone the repo
 git clone https://github.com/yourusername/sign-language-recognition.git
 cd sign-language-recognition
 
 # Install Python dependencies
 pip install -r requirements.txt
+
+# Data Flow Overview
+Sensors collect finger bend and wrist movement data.
+
+MediaPipe captures 3D hand landmarks.
+
+Combined data is processed through a hybrid model (1D-CNN + BiLSTM).
+
+Predicted gesture is translated into text and spoken via pyttsx3.
+
+
 
 ## 🚀 Project Structure
 
