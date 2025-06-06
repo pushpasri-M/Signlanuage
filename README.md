@@ -30,6 +30,24 @@ A real-time Sign Language Recognition System using deep learning and sensor fusi
 
 ---
 
+## 🔧 Setup Instructions
+
+### 1. Hardware Connections
+
+- Connect **Flex Sensors** to analog pins of ESP32.  
+- Connect **MPU6050 (IMU)** via I2C (SCL/SDA) to ESP32.  
+- Ensure ESP32 sends serial data in a structured format (e.g., comma-separated).
+
+### 2. Software Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/yourusername/sign-language-recognition.git
+cd sign-language-recognition
+
+# Install Python dependencies
+pip install -r requirements.txt
+
 ## 🚀 Project Structure
 
 ```bash
@@ -53,20 +71,3 @@ sign-language-recognition/
 └── README.md                     # Project documentation
 
 
-## 🔧 Setup Instructions
-
-### 1. Hardware Connections
-
-- Connect **Flex Sensors** to analog pins of ESP32.  
-- Connect **MPU6050 (IMU)** via I2C (SCL/SDA) to ESP32.  
-- Ensure ESP32 sends serial data in a structured format (e.g., comma-separated).
-
-### 2. Software Installation
-
-```bash
-# Clone the repo
-git clone https://github.com/yourusername/sign-language-recognition.git
-cd sign-language-recognition
-
-# Install Python dependencies
-pip install -r requirements.txt
