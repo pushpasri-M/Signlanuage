@@ -51,3 +51,22 @@ sign-language-recognition/
 ├── train_model.py                # Script to train the ML/DL model
 ├── requirements.txt              # All dependencies
 └── README.md                     # Project documentation
+
+
+## 🔧 Setup Instructions
+
+### 1. Hardware Connections
+
+- Connect **Flex Sensors** to analog pins of ESP32.  
+- Connect **MPU6050 (IMU)** via I2C (SCL/SDA) to ESP32.  
+- Ensure ESP32 sends serial data in a structured format (e.g., comma-separated).
+
+### 2. Software Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/yourusername/sign-language-recognition.git
+cd sign-language-recognition
+
+# Install Python dependencies
+pip install -r requirements.txt
