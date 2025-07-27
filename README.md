@@ -58,7 +58,8 @@ Combined data is processed through a hybrid model (1D-CNN + BiLSTM).
 Predicted gesture is translated into text and spoken via pyttsx3.
 
 
-
+## Screenshot of project 
+![alt text](https://github.com/pushpasri-M/Signlanuage/blob/main/Screenshot%20(40).png?raw=true)
 ## 🚀 Project Structure
 
 ```bash
